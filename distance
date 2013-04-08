@@ -1,0 +1,11 @@
+#!/bin/sh
+./generic -a "United States" >> "distances/United States.dis" 
+./generic -a "United Kingdom" >> "distances/United Kingdom.dis" 
+./generic -a "Germany" >> "distances/Germany.dis" 
+./generic -a "Italy" >> "distances/Italy.dis" 
+./generic -a "Greece" >> "distances/Greece.dis" 
+./generic -a "China" >> "distances/China.dis" 
+./generic -a "India" >> "distances/India.dis" 
+./generic -a "Brazil" >> "distances/Brazil.dis" 
+./generic -a "Russia" >> "distances/Russia.dis" 
+./generic -a "Mexico" >> "distances/Mexico.dis"

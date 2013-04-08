@@ -1,0 +1,21 @@
+#!/bin/sh
+./generic -b "Germany" "France" >> distances/eu_GE.dis 
+./generic -b "Germany" "Greece" >> distances/eu_GE.dis 
+./generic -b "Germany" "Hungary" >> distances/eu_GE.dis 
+./generic -b "Germany" "Ireland" >> distances/eu_GE.dis 
+./generic -b "France" "Germany" >> distances/eu_FR.dis 
+./generic -b "France" "Greece" >> distances/eu_FR.dis 
+./generic -b "France" "Hungary" >> distances/eu_FR.dis 
+./generic -b "France" "Ireland" >> distances/eu_FR.dis 
+./generic -b "Greece" "France" >> distances/eu_GR.dis 
+./generic -b "Greece" "Germany" >> distances/eu_GR.dis 
+./generic -b "Greece" "Hungary" >> distances/eu_GR.dis 
+./generic -b "Greece" "Ireland" >> distances/eu_GR.dis 
+./generic -b "Hungary" "France" >> distances/eu_HU.dis 
+./generic -b "Hungary" "Greece" >> distances/eu_HU.dis 
+./generic -b "Hungary" "Germany" >> distances/eu_HU.dis 
+./generic -b "Hungary" "Ireland" >> distances/eu_HU.dis 
+./generic -b "Ireland" "France" >> distances/eu_IR.dis 
+./generic -b "Ireland" "Greece" >> distances/eu_IR.dis 
+./generic -b "Ireland" "Hungary" >> distances/eu_IR.dis 
+./generic -b "Ireland" "Germany" >> distances/eu_IR.dis

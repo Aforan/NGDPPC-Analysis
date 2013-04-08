@@ -1,0 +1,31 @@
+#!/bin/sh
+./generic -b "Iraq" "Iran" >> distances/opec/opec_IQ.dis 
+./generic -b "Iraq" "Nigeria" >> distances/opec/opec_IQ.dis 
+./generic -b "Iraq" "Saudi Arabia" >> distances/opec/opec_IQ.dis 
+./generic -b "Iraq" "Venezuela" >> distances/opec/opec_IQ.dis 
+./generic -b "Iraq" "United Arab Emirates" >> distances/opec/opec_IQ.dis 
+./generic -b "Iran" "Iraq" >> distances/opec/open_IN.dis 
+./generic -b "Iran" "Nigeria" >> distances/opec/open_IN.dis 
+./generic -b "Iran" "Saudi Arabia" >> distances/opec/open_IN.dis 
+./generic -b "Iran" "Venezuela" >> distances/opec/open_IN.dis 
+./generic -b "Iran" "United Arab Emirates" >> distances/opec/open_IN.dis 
+./generic -b "Nigeria" "Iran" >> distances/opec/open_NI.dis 
+./generic -b "Nigeria" "Iraq" >> distances/opec/open_NI.dis 
+./generic -b "Nigeria" "Saudi Arabia" >> distances/opec/open_NI.dis 
+./generic -b "Nigeria" "Venezuela" >> distances/opec/open_NI.dis 
+./generic -b "Nigeria" "United Arab Emirates" >> distances/opec/open_NI.dis 
+./generic -b "Saudi Arabia" "Iran" >> distances/opec/open_SA.dis 
+./generic -b "Saudi Arabia" "Nigeria" >> distances/opec/open_SA.dis 
+./generic -b "Saudi Arabia" "Iraq" >> distances/opec/open_SA.dis 
+./generic -b "Saudi Arabia" "Venezuela" >> distances/opec/open_SA.dis 
+./generic -b "Saudi Arabia" "United Arab Emirates" >> distances/opec/open_SA.dis 
+./generic -b "Venezuela" "Iran" >> distances/opec/open_VZ.dis 
+./generic -b "Venezuela" "Nigeria" >> distances/opec/open_VZ.dis 
+./generic -b "Venezuela" "Saudi Arabia" >> distances/opec/open_VZ.dis 
+./generic -b "Venezuela" "Iraq" >> distances/opec/open_VZ.dis 
+./generic -b "Venezuela" "Nigeria" >> distances/opec/open_VZ.dis 
+./generic -b "United Arab Emirates" "Iran" >> distances/opec/open_UA.dis 
+./generic -b "United Arab Emirates" "Nigeria" >> distances/opec/open_UA.dis 
+./generic -b "United Arab Emirates" "Saudi Arabia" >> distances/opec/open_UA.dis 
+./generic -b "United Arab Emirates" "Venezuela" >> distances/opec/open_UA.dis 
+./generic -b "United Arab Emirates" "Iraq" >> distances/opec/open_UA.dis

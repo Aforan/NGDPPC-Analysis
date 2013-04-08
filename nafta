@@ -1,0 +1,7 @@
+#!/bin/sh
+./generic -b "United States" "Canada" >> distances/nafta/nafta_US.dis 
+./generic -b "United States" "Mexico" >> distances/nafta/nafta_US.dis 
+./generic -b "Canada" "United States" >> distances/nafta/nafta_CD.dis 
+./generic -b "Canada" "Mexico" >> distances/nafta/nafta_CD.dis 
+./generic -b "Mexico" "Canada" >> distances/nafta/nafta_MX.dis 
+./generic -b "Mexico" "United States" >> distances/nafta/nafta_MX.dis

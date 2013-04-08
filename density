@@ -1,0 +1,8 @@
+#!/bin/sh
+cd bin;
+java com.foran.Main 0.6
+java com.foran.Main 0.65
+java com.foran.Main 0.7
+java com.foran.Main 0.75
+java com.foran.Main 0.80
+java com.foran.Main 0.85

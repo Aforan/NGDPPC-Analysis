@@ -1,0 +1,22 @@
+README
+
+	ARGUMENTS:
+		-c Print connected components, graph density and some other information
+		-b [fromcountry] [tocountry]  compute the distance between the two countries
+		-a [sourcecountry] print the countries with 3 or more edges between the 	
+		   source country and itself, the distance value and the acutal path
+
+
+	USAGE:
+		./generic [argument] [argument parameters]
+	
+
+	EXAMPLES:
+		Example usage can be found in the shell scripts within this directory (eg: 
+		density, btwn, connected omponents etc.)
+	
+	NOTES:	
+		There is a ton of data in the data folder, data is located in .dis files which 
+		describe edges, in plain text, between countries of the format: 
+			country - edge weight -> country2 - edge weight 2 -> ...
+			total distance

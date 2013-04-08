@@ -1,0 +1,4 @@
+#!/bin/sh
+./generic -b "United States" "Afghanistan" >> "distances/ustoafg.dis" 
+./generic -b "United States" "Iraq" >> "distances/ustoiq.dis" 
+./generic -b "Pakistan" "Israel" >> "distances/pkatoisr.dis" 

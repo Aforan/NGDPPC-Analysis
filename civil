@@ -1,0 +1,3 @@
+#!/bin/sh
+./generic -a "Syria" >> "distances/syria.dis" 
+./generic -a "Libya" >> "distances/libya.dis"
